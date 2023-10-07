@@ -22,11 +22,11 @@ const curTZ_el = document.getElementById("curTZ")
 setTimezone(0)
 
 setInterval(() => {
-  curDate_el.innerText = moment().format('LL')
-  curTime_el.innerText = moment()
-                          .subtract(moment().parseZone().utcOffset(), 'minutes')
-                          .add(state.tzHour, 'hour')
-                          .format('hh:mm:ss A')
+  const time = moment()
+    .subtract(moment().parseZone().utcOffset(), 'minutes')
+    .add(state.tzHour, 'hour')
+  curDate_el.innerText = time.format('LL')
+  curTime_el.innerText = time.format('hh:mm:ss A')
   curTZ_el.innerText = state.tzText
 }, 1000)
 
