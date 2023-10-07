@@ -1,52 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <style>
-    body {
-      background-color: black;
-      color: white;
-      font-family: Arial, Helvetica, sans-serif;
-      letter-spacing: .1em;
-      text-align: center;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-    }
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+      body {
+        background-color: black;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        letter-spacing: .1em;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
 
-    body section {
-      margin: auto;
-      height: 98vh;
-      align-items: center;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-    }
+      body section {
+        margin: auto;
+        height: 98vh;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
 
-    #curTime {
-      font-size: 15rem;
-    }
+      #curTime {
+        font-size: 15rem;
+      }
 
-    #curDate, #curTZ {
-      font-size: 3rem;
-      color: #6d6d6d;
-    }
+      #curDate, #curTZ {
+        font-size: 3rem;
+        color: #6d6d6d;
+      }
 
-    #curTime, #curDate, #curTZ {
-      font-style: italic;
-    }
-  </style>
-  <title>TimeLive</title>
-</head>
-<body>
-  <section>
-    <h2 id="curDate"></h2>
-    <h1 id="curTime"></h1>
-    <h2 id="curTZ"></h2>
-  </section>
-</body>
-<script src="./assets/js/moment.min.js"></script>
-<script src="./assets/js/timezonesOffsets.js"></script>
-<script src="./assets/js/app.js"></script>
+      #curTime, #curDate, #curTZ {
+        font-style: italic;
+      }
+    </style>
+    <title>TimeLive</title>
+  </head>
+  <body>
+    <section>
+      <h2 id="curDate"></h2>
+      <h1 id="curTime"></h1>
+      <h2 id="curTZ"></h2>
+    </section>
+  </body>
+  <script src="./assets/js/moment.min.js"></script>
+  <script src="./assets/js/timezonesOffsets.js"></script>
+  <script src="./assets/js/app.js"></script>
 </html>
