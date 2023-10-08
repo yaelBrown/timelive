@@ -21,23 +21,19 @@ const TIMEZONES = [
   },
   {
      "value": -7,
-     "text": "(GMT -7:00) Mountain Time (US & Canada)"
+     "text": "(GMT -7:00) Pacific Daylight Time (US), Mountain Time (US & Canada)"
   },
   {
      "value": -6,
-     "text": "(GMT -6:00) Central Time (US & Canada), Mexico City"
+     "text": "(GMT -6:00) Mountain Standard Time (US), Central Time (Canada), Mexico City"
   },
   {
      "value": -5,
-     "text": "(GMT -5:00) Eastern Time (US & Canada), Bogota, Lima"
+     "text": "(GMT -5:00) Central Daylight Time (US & Canada), Bogota, Lima"
   },
   {
      "value": -4,
-     "text": "(GMT -4:00) Atlantic Time (Canada), Caracas, La Paz"
-  },
-  {
-     "value": -3.5,
-     "text": "(GMT -3:30) Newfoundland"
+     "text": "(GMT -4:00) Eastern Daylight Time (US), Atlantic Time (Canada), Caracas, La Paz"
   },
   {
      "value": -3,
@@ -53,7 +49,7 @@ const TIMEZONES = [
   },
   {
      "value": 0,
-     "text": "(GMT) Western Europe Time, London, Lisbon, Casablanca"
+     "text": "(UTC) Zulu"
   },
   {
      "value": 1,
